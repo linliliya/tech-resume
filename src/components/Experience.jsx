@@ -12,6 +12,8 @@ export default function Experience() {
 
       <div className="md:w-8/12 w-10/12 mx-auto">
         {[
+          // 在此处修改或新增工作经历卡片
+          // 如需新增卡片，复制下方整个被{}包围的对象，修改字符串内容；每个对象用逗号分隔。
           {
             img: "experience1.jpg",
             role: "XX实习生 - XX组",

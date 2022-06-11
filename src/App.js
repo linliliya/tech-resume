@@ -13,6 +13,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <Router>
+      {/* 模块顺序可以在下方调整，也可以新增或删除模块 */}
       <Navbar />
       <AboutMe />
       <Education />

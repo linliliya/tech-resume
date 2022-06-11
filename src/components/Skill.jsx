@@ -11,6 +11,8 @@ export default function Skill() {
         <SkillSection
           title="⌨️ 语言"
           skills={[
+            // 在此处新增或删除技能项，每个技能项用逗号进行分隔
+            // 图标来源：https://fontawesome.com/icons
             { name: "Python", icon: "fab fa-python fa-3x" },
             { name: "Javascript", icon: "fab fa-js-square fa-3x" },
             { name: "Java", icon: "fab fa-java fa-3x" },
@@ -25,6 +27,7 @@ export default function Skill() {
         <SkillSection
           title="📚 库/框架"
           skills={[
+            // 在此处新增或删除技能项，每个技能项用逗号进行分隔
             { name: "React", icon: "fab fa-react fa-3x" },
             { name: "ExpressJS", icon: "fas fa-server fa-3x" },
             { name: "Spring", icon: "fa fa-leaf fa-3x" },
@@ -39,6 +42,7 @@ export default function Skill() {
         <SkillSection
           title="🔨 工具"
           skills={[
+            // 在此处新增或删除技能项，每个技能项用逗号进行分隔
             { name: "Git", icon: "fab fa-git-square fa-3x" },
             { name: "Shell", icon: "fas fa-terminal fa-3x" },
             { name: "Docker", icon: "fab fa-docker fa-3x" },

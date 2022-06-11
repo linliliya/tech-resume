@@ -12,6 +12,8 @@ export default function Project() {
 
       <div className="md:w-8/12 w-10/12 mx-auto lg:grid grid-cols-2">
         {[
+          // 在此处修改或新增项目经历卡片
+          // 如需新增卡片，复制下方整个被{}包围的对象，修改字符串内容；每个对象用逗号分隔。
           {
             img: "project1.jpg",
             title: "XX训练视频指标提取平台",

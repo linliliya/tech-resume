@@ -12,8 +12,14 @@ export default function EducationCard(props) {
         <p className="text-lg font-semibold">{props.title}</p>
         <div>
           <p className="text-gray-400">{props.time}</p>
-          <p className="text-cyan-600 text-gray-500 my-2">{props.p1}</p>
-          <p className="text-cyan-600 text-gray-500 my-2">{props.p2}</p>
+          {props.descriptions &&
+            props.descriptions.map((des, index) => {
+              return (
+                <p key={index} className="text-cyan-600 text-gray-500 my-2">
+                  {des}
+                </p>
+              );
+            })}
         </div>
       </div>
     </div>

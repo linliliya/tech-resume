@@ -7,6 +7,7 @@ export default function Quote() {
       <div className="md:w-8/12 w-10/12 mx-auto">
         <div className=" bg-gray-100 rounded-xl md:p-0 shadow-lg mb-6">
           <p className="pt-12 pb-6 text-xl px-2">
+            {/* 在此处替换文本内容 */}
             “仅靠生存本身是不能保证生存的，发展是生存的最好保障。”
           </p>
           <p className="pb-12 text-xl px-2">—— 刘慈欣《黑暗森林》</p>
