@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { sendEmail } from "../utils/fetch";
+import { sendEmail, notify } from "../utils/fetch";
 
 export default function Contact() {
   const [message, setMessage] = useState("");
@@ -32,6 +32,7 @@ export default function Contact() {
         setName("");
         alert("你的消息已经飞出去了！📮");
         await sendEmail(data);
+        await notify(data);
       };
 
       sendRegisterRequest();
