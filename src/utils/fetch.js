@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const sendEmail = (data) => {
   let api_url =
-    "https://service-01p4lzv3-1257138158.sh.apigw.tencentcs.com:443/send_email";
+    "";
 
   console.log(data);
   const config = {
@@ -24,7 +24,7 @@ export const sendEmail = (data) => {
 
 export const notify = (data) => {
   let api_url =
-    "https://service-01p4lzv3-1257138158.sh.apigw.tencentcs.com:443/notify";
+    "";
 
   console.log(data);
   const config = {
